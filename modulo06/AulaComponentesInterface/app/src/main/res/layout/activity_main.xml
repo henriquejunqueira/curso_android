@@ -8,22 +8,10 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/botao_jogar"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button5"
-        tools:layout_editor_absoluteX="143dp" />
-
+        android:layout_height="48dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="45dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
