@@ -1,5 +1,6 @@
 package com.henriquejunqueira.aulaaprendajavadozero;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -7,6 +8,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.henriquejunqueira.aulaaprendajavadozero.classes.Cliente;
+import com.henriquejunqueira.aulaaprendajavadozero.classes.ContaBancaria;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,5 +28,11 @@ public class MainActivity extends AppCompatActivity {
         // FuncionarioBanco funcionarioBanco = new FuncionarioBanco();
         // funcionarioBanco.calcularSalarioComDesconto();
         // double salarioComDesconto = funcionarioBanco.calcularSalarioComDesconto();
+
+        //Intent intent = new Intent();
+        //ContaBancaria contaBancaria = new ContaBancaria();
+
+        Cliente cliente = new Cliente();
+        cliente.sacar();
     }
 }
